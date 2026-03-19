@@ -1,0 +1,30 @@
+{
+  "../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-D0Q80x0r.js",
+    "name": "crx-manifest.js",
+    "src": "../../../@crx/manifest",
+    "isEntry": true
+  },
+  "_schedule-BekeGB0l.js": {
+    "file": "assets/schedule-BekeGB0l.js",
+    "name": "schedule"
+  },
+  "src/background/background.ts": {
+    "file": "assets/background.ts-zQDfgYE-.js",
+    "name": "background.ts",
+    "src": "src/background/background.ts",
+    "isEntry": true,
+    "imports": [
+      "_schedule-BekeGB0l.js"
+    ]
+  },
+  "src/popup/popup.html": {
+    "file": "assets/popup.html-Da-zfAdF.js",
+    "name": "popup.html",
+    "src": "src/popup/popup.html",
+    "isEntry": true,
+    "imports": [
+      "_schedule-BekeGB0l.js"
+    ]
+  }
+}
